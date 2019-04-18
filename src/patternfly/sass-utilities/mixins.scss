@@ -153,7 +153,7 @@
   -ms-overflow-style: -ms-autohiding-scrollbar; // auto hides scrollbars in Edge
 }
 
-@mixin pf-hidden-visible($val: "block") {
+@mixin pf-hidden-visible($val: block) {
   &.pf-m-hidden {
     display: none;
     visibility: hidden;

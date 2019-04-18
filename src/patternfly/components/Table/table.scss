@@ -34,6 +34,10 @@
   // Thead
   --pf-c-table-thead--FontSize: var(--pf-global--FontSize--sm);
 
+  // Cell
+  --pf-c-table-cell--hidden-visible--Display: block;
+  --pf-c-table-cell--m-grid--hidden-visible--Display: grid;
+
   // Tr
   --pf-c-table-thead-cell--PaddingTop: var(--pf-global--spacer--md);
   --pf-c-table-thead-cell--PaddingBottom: var(--pf-global--spacer--md);
@@ -140,6 +144,11 @@
   width: 100%;
   background-color: var(--pf-c-table--BackgroundColor);
 
+  // Specificity hack to override grid styles
+  &[class*="pf-c-table"] tr > * {
+    @include pf-hidden-visible(var(--pf-c-table-cell--hidden-visible--Display));
+  }
+
   // Standard table row (non-expandable)
   // exclude expandable rows
   tr:not(.pf-c-table__expandable-row) {
@@ -177,9 +186,6 @@
     &.pf-m-center {
       text-align: center;
     }
-
-    // Hide/show cells at different breakpoints
-    @include pf-hidden-visible("table-cell");
   }
 
   // Table caption
