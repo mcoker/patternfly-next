@@ -174,10 +174,12 @@
       --pf-c-table-cell--PaddingRight: var(--pf-c-table-cell--first-last-child--PaddingRight);
     }
 
-    /* stylelint-disable-next-line */
     &.pf-m-center {
       text-align: center;
     }
+
+    // Hide/show cells at different breakpoints
+    @include pf-hidden-visible("table-cell");
   }
 
   // Table caption
