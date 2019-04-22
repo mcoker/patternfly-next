@@ -62,7 +62,7 @@
   --pf-c-table-tr--responsive--nested-table--PaddingLeft: var(--pf-global--spacer--lg);
 
   // Cell
-  --pf-c-table-cell--hidden-visible--Display: var(--pf-c-table-cell--m-grid--hidden-visible--Display);
+  --pf-c-table-cell--hidden-visible--Display: grid;
 
   // Td
   --pf-c-table-td--responsive--GridColumnGap: var(--pf-global--spacer--md);
@@ -200,6 +200,8 @@
 
   // Standard td, in standard row (non-expandable)
   [data-label] {
+    @include pf-hidden-visible(var(--pf-c-table-cell--hidden-visible--Display));
+
     // responsive layout, set td to two column grid
     display: grid;
     grid-column: 1;
