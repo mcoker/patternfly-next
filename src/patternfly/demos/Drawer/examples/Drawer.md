@@ -9,7 +9,7 @@ section: demos
 ```
 
 ```hbs title=Expanded isFullscreen
-{{> drawer-demo-default id="drawer-expanded" drawer--modifier="pf-m-expanded"}}
+{{> drawer-demo-default-expanded id="drawer-expanded" drawer--modifier="pf-m-expanded"}}
 ```
 
 ## Documentation
