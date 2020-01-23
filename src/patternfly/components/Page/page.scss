@@ -511,7 +511,7 @@
     flex-direction: column;
   }
 
-  /* stylelint-disable max-nesting-depth, selector-max-class, selector-max-compound-selectors */
+  // stylelint-disable max-nesting-depth, selector-max-class, selector-max-compound-selectors
   > .pf-c-drawer > .pf-c-drawer__content > .pf-c-drawer__content-body {
     display: flex;
     flex: 1 0;
@@ -523,5 +523,5 @@
       flex: 1 0 auto;
     }
   }
-  /* stylelint-enable */
+  // stylelint-enable
 }
