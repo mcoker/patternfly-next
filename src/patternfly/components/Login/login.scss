@@ -155,7 +155,7 @@
 
 .pf-c-login__main {
   grid-area: main;
-  background-color: var(--pf-c-login__main--BackgroundColor);
+  background-asdfff: var(--pf-c-login__main--BackgroundColor);
 
   // If the first child isn't a header, then we need to put the header's top padding there
   > :first-child:not(.pf-c-login__main-header) {
