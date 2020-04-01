@@ -1,13 +1,13 @@
-#ws-core-c-nav-basic,
-#ws-core-c-nav-grouped,
-#ws-core-c-nav-default,
-#ws-core-c-nav-expanded,
-#ws-core-c-nav-expanded-with-subnav-titles,
-#ws-core-c-nav-mixed {
+#ws-core-c-navigation-basic,
+#ws-core-c-navigation-grouped,
+#ws-core-c-navigation-default,
+#ws-core-c-navigation-expanded,
+#ws-core-c-navigation-expanded-with-subnav-titles,
+#ws-core-c-navigation-mixed {
   background-color: var(--pf-global--BackgroundColor--dark-300);
 }
 
-#ws-core-c-nav-horizontal-in-masthead,
-#ws-core-c-nav-horizontal-overflow-in-masthead {
+#ws-core-c-navigation-horizontal-in-masthead,
+#ws-core-c-navigation-horizontal-overflow-in-masthead {
   background-color: var(--pf-global--BackgroundColor--dark-100);
 }
