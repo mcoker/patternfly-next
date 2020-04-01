@@ -98,7 +98,7 @@ import './Nav.css'
               Current link
             {{/nav-link}}
           {{/nav-item}}
-          {{> divider}}
+          {{> divider divider--type="li"}}
           {{#> nav-item newcontent}}
             {{#> nav-link nav-link--href="#"}}
               Subnav link 2
@@ -438,7 +438,7 @@ import './Nav.css'
               Current link
             {{/nav-link}}
           {{/nav-item}}
-          {{> divider}}
+          {{> divider divider--type="li"}}
           {{#> nav-item newcontent}}
             {{#> nav-link nav-link--href="#"}}
               Subnav link 2
