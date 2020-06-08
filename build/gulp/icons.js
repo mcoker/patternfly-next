@@ -3,7 +3,7 @@ const iconfont = require('gulp-iconfont');
 const iconfontCss = require('gulp-iconfont-css');
 const generateIcons = require('../../src/icons/generateIcons.js');
 
-const pficonFontName = 'pficon';
+const pficonFontName = 'pficon-test';
 
 function pfIcons() {
   return generateIcons();
