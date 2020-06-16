@@ -6,15 +6,19 @@ cssPrefix: pf-c-alert
 
 ## Examples
 ```hbs title=Types
+<div style="font-size: 2em;">
 <div style="font-family: RedHatText-Regular; font-weight: 400;">RedHatText-Regular - 400</div>
 <div style="font-family: RedHatText-Regular; font-weight: 700;">RedHatText-Regular - 700</div>
 <br>
-<div style="font-family: RedHatText-Medium; font-weight: 400;">RedHatText-Medium - 400</div>
-<div style="font-family: RedHatText-Medium; font-weight: 700;">RedHatText-Medium - 700</div>
+<div style="font-family: RedHatText-Medium; font-weight: 400;">Modal title</div>
+<div style="font-family: RedHatText-Medium; font-weight: 700;">Modal title</div>
 <br>
 <div style="font-family: RedHatText-Bold; font-weight: 400;">RedHatText-Bold - 400</div>
 <div style="font-family: RedHatText-Bold; font-weight: 700;">RedHatText-Bold - 700</div>
 <br>
+<div style="font-family: RedHatText; font-weight: 400;">RedHatText - 400</div>
+<div style="font-family: RedHatText; font-weight: 700;">RedHatText - 700</div>
+</div>
 ```
 
 ```hbs title=Variations
