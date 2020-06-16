@@ -7,20 +7,26 @@
 // stylelint-disable font-family-name-quotes
 
 @font-face {
-  font-family: "RedHatText";
+  font-family: "RedHatText-Regular";
   src: url("#{$pf-global--font-path}/RedHatText/RedHatText-Regular.eot");
   src: url("#{$pf-global--font-path}/RedHatText/RedHatText-Regular.eot?#iefix") format("embedded-opentype"), url("#{$pf-global--font-path}/RedHatText/RedHatText-Regular.woff") format("woff");
   font-style: normal;
-  font-weight: 400;
   text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: "RedHatText";
+  font-family: "RedHatText-Medium";
   src: url("#{$pf-global--font-path}/RedHatText/RedHatText-Medium.eot");
   src: url("#{$pf-global--font-path}/RedHatText/RedHatText-Medium.eot?#iefix") format("embedded-opentype"), url("#{$pf-global--font-path}/RedHatText/RedHatText-Medium.woff") format("woff");
   font-style: normal;
-  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "RedHatText-Bold";
+  src: url("#{$pf-global--font-path}/RedHatText/RedHatText-Bold.eot");
+  src: url("#{$pf-global--font-path}/RedHatText/RedHatText-Bold.eot?#iefix") format("embedded-opentype"), url("#{$pf-global--font-path}/RedHatText/RedHatText-Bold.woff") format("woff");
+  font-style: normal;
   text-rendering: optimizeLegibility;
 }
 
